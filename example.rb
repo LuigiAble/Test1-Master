@@ -2,7 +2,7 @@ animals = [
   "A" => true,
   "B" => 12.32,
   "C" => "Fine",
-  "D" => 10,
+#"D" => 10,
   "E" => false
 ]
 
