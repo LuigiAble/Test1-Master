@@ -4,12 +4,10 @@ import DashboardPage from './dashboard_page';
 const dashboardPage = new DashboardPage();
 
 
-export default class CreateVariables {
+export default class SLALSLAL {
     constructor() {
         this.cclclcl = Selector('.u-heading.u-zeroMargin.FormSection-title');
-        this.selectCompanyDropDown = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a company');
-        this.xlxxlxl = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a portfolio');
-        this.portfolioInput = Selector('.InputText').withAttribute('placeholder', 'Portfolio');
+
         this.dldldl = Selector('.SelectPopup .SelectOptions .SelectOption .SelectOption-link');
         this.typeInvestmentButton = Selector('.TabButton').child('span');
         this.equityHoldingDetailsTitle = Selector('.u-sectionHeading.FormSection-title');
