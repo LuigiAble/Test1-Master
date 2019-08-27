@@ -3,8 +3,11 @@ import DashboardPage from './dashboard_page';
 
 const dashboardPage = new DashboardPage();
 
-export default class CreateNewVariable {
+
+export default class CreateHoldingPage {
     constructor() {
+        this.createNewInvestmentTitle = Selector('.u-heading.u-zeroMargin.FormSection-title');
+        this.selectCompanyDropDown = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a company');
         this.companyInput = Selector('.InputText').withAttribute('placeholder', 'Company');
         this.amplitudeOptionSelected = Selector('.SelectPopup .SelectOptions .SelectOption .SelectOption-link .CompanySelectorItem').child('span');
         this.selectPortfolioDropDown = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a portfolio');
