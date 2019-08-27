@@ -4,19 +4,14 @@ import DashboardPage from './dashboard_page';
 const dashboardPage = new DashboardPage();
 
 
-export default class CreateVariables {
+export default class SLALSLAL {
     constructor() {
-        this.llxxlxlxl = Selector('.u-heading.u-zeroMargin.FormSection-title');
         this.selectCompanyDropDown = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a company');
-        this.xlxxlxl = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a portfolio');
         this.portfolioInput = Selector('.InputText').withAttribute('placeholder', 'Portfolio');
         this.portfolioOptionSelected = Selector('.SelectPopup .SelectOptions .SelectOption .SelectOption-link');
-        this.typeInvestmentButton = Selector('.TabButton').child('span');
-        this.equityHoldingDetailsTitle = Selector('.u-sectionHeading.FormSection-title');
+        this.LLAAL = Selector('.TabButton').child('span');
         this.seriesDropDown = Selector('.SelectCurrentSelection-controller').child('span').withText('Select series for this holding...');
-        this.seriesOptionSelected = Selector('.SelectOption').child('a');
         this.inputAcquisitionDate = Selector('.InputText').withAttribute('name', 'date');
-        this.investmentAmountInput = Selector('.InputText').withAttribute('name', 'total_acquisition_amount');
         this.numberSharesInput = Selector('.InputText').withAttribute('name', 'quantity');
         this.addHoldingButton = Selector('.btn.Button.Button--default.Button--primary').child('span').withText('Add Holding');
     };
